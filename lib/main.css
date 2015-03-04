@@ -1,0 +1,27 @@
+
+.main-container{
+	height:300px;
+	width:300px;
+	margin:auto;
+}
+
+
+#robot-container{
+	margin:auto;
+	height:300px;
+	width:300px;
+	visibility:hidden;
+
+}
+#robot-container input{
+	display:block;
+	margin:auto;
+}
+.start-button{
+	display:block;
+	margin:auto;
+}
+#coordinateOutput{
+	height:150px;
+	width:auto;
+}

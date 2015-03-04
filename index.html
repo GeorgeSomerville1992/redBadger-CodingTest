@@ -3,8 +3,22 @@
 <head>
 	<title></title>
 </head>
+<link rel="stylesheet" type="text/css" href="lib/reset.css">
+<link rel="stylesheet" type="text/css" href="lib/main.css">
 <body>
+	<div class="main-container">
+	<div class="intro">
+		<h1>Welcome to robot app</h1>
+		<p> bla bla bla bla</p>
+		<button class="start-button" onclick="showForm()">begin</button>
+	</div>
+	<div id="robot-container">
+		<input type="text" id="instructionInput" placeHolder="input your coordinates Here"></input>
+		<input type="text" id="instructionCommands" placeHolder="input your instruction commands Here"></input>
+		<input type="text" id="coordinateOutput" placeHolder="resulting output"></input>
+		<button id="send-coordinate" onclick="inputCoordinate()">Send Coordinate</button>
+	</div>
+	</div>
 <script src="main.js"></script>
-
 </body>
 </html>
