@@ -8,8 +8,8 @@
 */
 
 
-var previouscoordinatesArrayX = [],
-    previouscoordinatesArrayY = []
+var previousCoordinatesArrayX = [],
+    previousCoordinatesArrayY = []
 function Robot() {
     /* private properties only returned object has access to */
     var instructions = [],
@@ -60,7 +60,6 @@ function Robot() {
                 return false;
             }
             for (var i = 0; i < instructions.length; i += 1) {
-                console.log(instructions[i])
                 if (instructions[i] === "F") {
                     /* switch orientation statement for robot moving forward */
                     switch (this.orientation) {
