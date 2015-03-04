@@ -3,20 +3,26 @@
 <head>
 	<title></title>
 </head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="lib/reset.css">
 <link rel="stylesheet" type="text/css" href="lib/main.css">
 <body>
+	<div id="banner"></div>
 	<div class="main-container">
-	<div class="intro">
-		<h1>Welcome to robot app</h1>
-		<p> bla bla bla bla</p>
-		<button class="start-button" onclick="showForm()">begin</button>
+	<div id="intro">
+		<h1>Mars Robot</h1>
+		<p class="instructions">Enter a pair of corrindates follwed by a letter of orinitation(N,E,S,W). Make sure there is a space between everything and try not to fall of the edge!</p>
+		<button class="start-button" onclick="showForm()">Enter Coordinates</button>
 	</div>
 	<div id="robot-container">
-		<input type="text" id="instructionInput" placeHolder="input your coordinates Here"></input>
-		<input type="text" id="instructionCommands" placeHolder="input your instruction commands Here"></input>
-		<input type="text" id="coordinateOutput" placeHolder="resulting output"></input>
-		<button id="send-coordinate" onclick="inputCoordinate()">Send Coordinate</button>
+		<h3> Input your coordinates here </h3>
+		<input type="text" id="coordinateInput" ></input>
+		<h3> input your commands in here </h3>
+		<input type="text" id="instructionCommands" ></input>
+		<button id="send-coordinate" onclick="inputCoordinate()">Send Coordinates</button>
+		<h3> robots final position will be shown here </h3>
+		<input type="text" id="coordinateOutput"></input>
 	</div>
 	</div>
 <script src="main.js"></script>

@@ -1,21 +1,63 @@
+body{
+	background-image: url("images/background.jpg");
+		background-repeat:no-repeat;
+	background-size: 100%;
+}
 
+#banner{
+	width: 100%;
+	height: 400px;
+	background-image: url("images/banner.gif");
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+#intro{
+
+	height:300px;
+	background-color:#8C001A;
+}
+
+#intro h1{
+	font-size:50px;
+	font-family: 'Slabo 27px', serif;
+	color:gold;
+}
+#intro p{
+	color:gold;
+}
 .main-container{
 	height:300px;
 	width:300px;
 	margin:auto;
 }
 
-
 #robot-container{
 	margin:auto;
-	height:300px;
+	height:400px;
 	width:300px;
 	visibility:hidden;
-
+	position: relative;
+	bottom:575px;
+	background-color:#8C001A;
+	text-align:center;
+	font-family: 'Slabo 27px', serif;
+	color:gold;
 }
+#robot-container input{
+	width: 200px;
+	background-color:gold;
+	color:#8C001A;
+}
+
 #robot-container input{
 	display:block;
 	margin:auto;
+}
+#robot-container h3{
+	margin-bottom: 10px;
+}
+#coordinateInput, #instructionCommands{
+	height: 60px;
 }
 .start-button{
 	display:block;
