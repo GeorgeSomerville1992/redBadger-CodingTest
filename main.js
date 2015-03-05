@@ -138,8 +138,9 @@ function inputCoordinate() {
 
 /* to do => 
     * fix robot scent
-    * implement unit tests and throw error code. (see unit code)
-    * implement validation for correct format Regex. 
+    * Implement unit tests and throw error code. (see unit code)
+    * Implement validation for correct format Regex. 
+    * Implement into node and rails app.
 */
 
 
