@@ -16,10 +16,12 @@
 		<button class="start-button" onclick="showForm()">Enter Coordinates</button>
 	</div>
 	<div id="robot-container">
+		<h3> Input your grid boundary here </h3>
+		<input type="text" id="coordinateBoundary" placeholder="e.g 15 15"></input>
 		<h3> Input your coordinates here </h3>
-		<input type="text" id="coordinateInput" ></input>
+		<input type="text" id="coordinateInput"placeholder="e.g 0 5 N" ></input>
 		<h3> input your commands in here </h3>
-		<input type="text" id="instructionCommands" ></input>
+		<input type="text" id="instructionCommands"placeholder=" e.g FFFLLRRR" ></input>
 		<button id="send-coordinate" onclick="inputCoordinate()">Send Coordinates</button>
 		<h3> robots final position will be shown here </h3>
 		<input type="text" id="coordinateOutput"></input>
